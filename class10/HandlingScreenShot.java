@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WorkingWithKeys {
+public class HandlingScreenShot {
 
 	public static String url = "http://18.232.148.34/humanresources/symfony/web/index.php/auth/login";
 
