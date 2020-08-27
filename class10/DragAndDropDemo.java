@@ -32,6 +32,7 @@ public class DragAndDropDemo {
 		
 		//Refreshing Page
 		driver.navigate().refresh();
+		
 
 	}
 }

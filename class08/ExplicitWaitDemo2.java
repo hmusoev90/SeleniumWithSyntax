@@ -1,5 +1,6 @@
 package com.syntax.class08;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +27,7 @@ public class ExplicitWaitDemo2 {
 
 		WebElement txtElement = driver.findElement(By.xpath("//h4[contains(text(),'Welcome Syntax')]"));
 		System.out.println("Message: " + txtElement.getText());
+		
 
 	}
 }
