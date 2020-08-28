@@ -18,9 +18,13 @@ public class AdvancedXpathDemo {
 		driver.manage().window().maximize();
 
 		// SearchBar
-
 		WebElement searchBar = driver.findElement(By.xpath("//label[@id='nav-search-label']/following-sibling::input"));
-		//searchBar.sendKeys("Samsung Galaxy Note 20 Ultra Unlocked");
+		searchBar.sendKeys("Samsung Galaxy Note 20 Ultra Unlocked");
+
+		// SearchButton
+		WebElement searchButton = driver
+				.findElement(By.xpath("//span[@id='nav-search-submit-text']/following-sibling::input"));
+		searchButton.click();
 
 	}
 }
